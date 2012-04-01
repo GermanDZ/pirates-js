@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "coffee-script": "latest",
-    "express": "~2.5.8",
-    "haml-coffee": "~0.6.2"
+    "express": ">=2.5.8",
+    "haml-coffee": ">=0.6.2"
   }
 }
