@@ -4,6 +4,8 @@
   "dependencies": {
     "coffee-script": "latest",
     "express": ">=2.5.8",
-    "haml-coffee": ">=0.6.2"
+    "haml-coffee": ">=0.6.2",
+    "amqp":">= 0.1.0",
+    "socket.io":">= 0.9.6"
   }
 }
