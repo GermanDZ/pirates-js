@@ -2,7 +2,7 @@ Hello my friend #{@name}
 
 <script src="/socket.io/socket.io.js"></script>
 <script>
-  var socket = io.connect('http://pirates.germandz.c9.io');
+  var socket = io.connect();
   socket.on('news', function (data) {
     document.write(data.winner + "<br>");
   });
